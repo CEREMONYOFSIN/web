@@ -1,0 +1,72 @@
+﻿@import url('fonts.css');
+
+#websiteLogo {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    resize: none;
+    justify-content: start;
+    float: left;
+    vertical-align: middle;
+}
+
+#navBar {
+    display: flex;
+    color: white;
+    justify-content: end;
+    float: right;
+    font-size: 1.5rem;
+}
+
+#navBar a {
+    color: white;
+    text-decoration: none;
+    font-family: "JetBrains Mono Bold", monospace;
+}
+
+#navBar a:hover {
+    background-image: linear-gradient(
+            to right,
+            #cb9b51 0,
+            #f6e27a 22%,
+            #f6f2c0 45%,
+            #f6f2c0 50%,
+            #f6f2c0 55%,
+            #f6e27a 78%,
+            #cb9b51 100%
+    );
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+#loginBtn {
+    border: white solid 3px;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+#loginBtn:hover {
+    background-color: white;
+}
+
+#loginBtn:hover a {
+    color: black;
+    mix-blend-mode: multiply;
+}
+
+#localeSelector option, select {
+    font-family: 'JetBrains Mono Bold', monospace;
+    background-color: transparent;
+    border: none;
+}
+
+#localeSelector {
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+#localeSelector option {
+    color: black;
+    background-color: transparent;
+    border: none;
+}

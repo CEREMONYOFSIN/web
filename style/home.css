@@ -1,0 +1,40 @@
+﻿@import url("nav.css");
+@import url("fonts.css");
+
+* {
+    color: #fff;
+}
+
+html {
+    background: #000;
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('/img/home-bg.gif') !important;
+    background-size: auto 50%, cover !important;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+#mainTitle h1 {
+    font-size: 5rem;
+    font-family: 'JetBrains Mono ExtraBold', monospace;
+}
+
+#mainTitle p {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+#mainTitle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+#wipIndicator {
+    background-color: white;
+    padding: 4px 10px 4px 10px;
+    border-radius: .5rem;
+    color: black;
+    font-family: 'JetBrains Mono ExtraBold', monospace;
+    text-shadow: none;
+}

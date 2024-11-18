@@ -1,0 +1,12 @@
+﻿@font-face {
+    font-family: "JetBrains Mono",
+                 "Jetbrains Mono Bold",
+                 "JetBrains Mono Thin",
+                 "JetBrains Mono Light",
+                 "JetBrains Mono ExtraBold";
+    src: url('fonts/JetBrainsMono-Regular.ttf'),
+         url('fonts/JetBrainsMono-Bold.ttf'),
+         url('fonts/JetBrainsMono-Thin.ttf'),
+         url('fonts/JetBrainsMono-Light.ttf'),
+         url('fonts/JetBrainsMono-ExtraBold.ttf');
+}
